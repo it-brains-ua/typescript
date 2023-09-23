@@ -1,0 +1,5 @@
+.editorconfig
+.husky
+build/
+coverage/
+node_modules/

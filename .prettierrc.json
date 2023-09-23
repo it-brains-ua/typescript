@@ -1,0 +1,13 @@
+{
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "overrides": [
+        {
+            "editorconfig": true,
+            "files": [".editorconfig", ".eslintignore"],
+            "options": { "parser": "json" }
+        }
+    ]
+}
