@@ -20,7 +20,7 @@
         "sourceMap": true,
         "strict": true,
         "target": "ES5",
-				"experimentalDecorators": true
+				"experimentalDecorators": true,
     },
     "include": ["src/**/*.ts", "test/**/*.ts"],
     "exclude": ["build", "node_modules"]

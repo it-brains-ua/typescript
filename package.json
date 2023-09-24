@@ -5,10 +5,9 @@
     "private": true,
     "license": "MIT",
     "scripts": {
-        "dev": "concurrently -k \"npm run build:watch\" ",
+        "start": "npm run build && node build/src/index ",
         "clean": "rimraf build",
-        "build": "tsc",
-        "build:watch": "npm run build -- --watch"
+        "build": "tsc"
     },
     "files": [
         "build/src/"
